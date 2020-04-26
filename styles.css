@@ -71,3 +71,12 @@ p{
     font-size: 1.5rem;
     color: forestgreen;
 }
+ @media only screen and (max-width:600px) {
+    
+    body{
+        background-image: url(bg-small.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+ }
+}
+
