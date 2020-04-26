@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    <link rel="icon"  href="favicon (2).ico">
+    
+</head>
+<body>
+    <h1><em>C A L C U L A T O R</em></h1>
+    
+    <div class ="calci">
+        <form  name = "form">
+            <input class="textview" name="textview"  disabled="disabled"
+              placeholder="Enter Number...">
+          </form>
+
+          <table >
+              <tr>
+                  
+                <td> <input type ="button" class ="btn"  value ="C" onclick="clean()"></td>
+                <td> <input type ="button"  class ="btn" value="<" onclick="back()" ></td>
+                <td> <input type ="button"  class ="btn" value ="%" onclick="insert('%')"></td>
+                <td> <input type ="button"  class ="btn" value ="/" onclick="insert('/')"></td>
+            
+              </tr>
+              <tr>
+                <td> <input type ="button"  class ="btn"  value ="7" onclick="insert(7)"></td>
+                <td> <input type ="button"  class ="btn" value ="8" onclick="insert(8)"></td>
+                <td> <input type ="button"  class ="btn" value ="9" onclick="insert(9)"></td>
+                <td> <input type ="button"  class ="btn" value ="*" onclick="insert('*')"></td>
+              </tr>
+              <tr>
+                <td> <input type ="button"  class ="btn" value ="4" onclick="insert(4)"></td>
+                <td> <input type ="button"  class ="btn" value ="5" onclick="insert(5)"></td>
+                <td> <input type ="button"  class ="btn" value ="6" onclick="insert(6)"></td>
+                <td> <input type ="button"  class ="btn" value ="-" onclick="insert('-')"></td>
+              </tr>
+              <tr>
+                <td> <input type ="button"  class ="btn" value ="1" onclick="insert(1)"></td>
+                <td> <input type ="button"  class ="btn" value ="2" onclick="insert(2)"></td>
+                <td> <input type ="button"  class ="btn" value ="3" onclick="insert(3)"></td>
+                <td> <input type ="button"  class ="btn" value ="+" onclick="insert('+')"></td>
+              </tr>
+              <tr>
+                <td> <input type ="button"  class ="btn" value ="." onclick="insert('.')"></td>
+                <td> <input type ="button"  class ="btn" value ="0" onclick="insert(0)"></td>
+                <td> <input type ="button"  class ="btn equal" value ="=" onclick="equal()"></td>
+                <td> <input type ="button"  class ="btn ans" value =".ANS" onclick="hisclick()"></td>
+              </tr>
+          </table>
+          
+    </div>
+    
+    <script src="index.js"></script>
+    <p><em>created by Riyazur Razak ♥♥</em></p>
+</body>
+</html>
